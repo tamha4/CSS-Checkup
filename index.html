@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>CSS Checkup</title>
+</head>
+<body>
+    <!-- id -->
+    <div id="conatiner">
+        <h2>Movie Register Form</h2>
+        <div style="border: solid 2px black; padding: .5rem;"">
+            <fieldset>
+                <legend>Customere Information</legend>
+                <form>
+                    <p>
+                        <label for="">First Name: <input type="text" placeholder="first name"></label>
+                    </p>
+                    <p>
+                        <label for="">Last Name: <input type="text" placeholder="last name"></label>
+                    </p>
+                    <p>
+                        <label for="">Telephone: <input type="tel" placeholder="telephone"></label>
+                    </p>
+                    <p>
+                        <label for="">Email Address: <input type="email" placeholder="email"></label>
+                    </p>
+                </form>
+            </fieldset>
+
+            <fieldset>
+                <legend>Credit/Debit Info</legend>
+                <!-- class -->
+                <form class="cons">
+                    <p>
+                        <label for="User Name">Name on Card: <input type="text" placeholder="name"></label>
+                    </p>
+                    <p>
+                        <label for="Card Number">Card Number: <input type="number" placeholder="card number"></label>
+                    </p>
+                    <p>
+                        <label for="Exp">Expiration Date: <input type="month" placeholder="month" > <input type="year" placeholder="year"></label>
+                    </p>
+                    <p>
+                        <label for="Scode">Security Code: <input type="number" placeholder="security code"></label>
+                    </p>
+                    <p>
+                        <label for="Billing Address"> <input type="radio">Billing address is same shipping address:</label>
+                    </p>
+                </form>
+            </fieldset>
+                <p>
+                    <button type="submit">Submit Order</button>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
